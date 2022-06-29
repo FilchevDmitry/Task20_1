@@ -17,7 +17,7 @@ int main()
         int a = stoi(date.substr(0, 2));
         int b = stoi(date.substr(3, 2));
         int c = stoi(date.substr(6, 4));
-        if (a > 31 || b > 12 || c>2022)
+        if (a > 31 || b > 12 || c>2025)
         {
             std::cout << "Error!!!!\n";
             ok = true;
